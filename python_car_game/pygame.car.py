@@ -13,7 +13,6 @@ BROWN = (139, 69, 19)
 GREY = (50, 50, 50)
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
-GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
 
 # location parameters
@@ -115,13 +114,13 @@ while run:
     if game_over:
         # Render game over text and options
         game_over_text = font.render("GAME OVER, YOU LOST!", True, BLACK)
-        restart_text = font.render("Press R to try again!", True, GREEN)
+        restart_text = font.render("Press R to try again!", True, RED)
         give_up_text = font.render("Press Q to give up!", True, RED)
 
         #draw the various text on the screen
         screen.blit(game_over_text, (WIDTH // 2 - game_over_text.get_width() // 2, 200))
-        screen.blit(restart_text, (WIDTH // 2 - 700 // 3, 400))
-        screen.blit(give_up_text, (WIDTH // 2 + 700 // 5, 400))
+        screen.blit(restart_text, (300, 400))
+        screen.blit(give_up_text, (650, 400))
 
         pygame.display.update()
 
