@@ -35,3 +35,9 @@ https://www.linkedin.com/in/nana-gyamera-b3a138143/
 https://www.linkedin.com/in/christiana-madubuike
 
 https://www.linkedin.com/in/afolabi-fatai-kayode-79555749/
+
+Below is the screenshot of the game
+
+![Screenshot 2023-06-13 135647](https://github.com/Nanagyamera/Project/assets/111068130/52e1ecb2-212a-4ab3-b633-e4ed6bb37cbf)
+
+
